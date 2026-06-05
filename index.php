@@ -1,41 +1,44 @@
-<!DOCTYPE php>
-<php lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mahasiswa | Informatika 2026</title>
+    <title>Informatics</title>
 </head>
+
 <body>
     <h1>INFORMATIKA 2026</h1>
-    <table border="1" cellpadding="10" cellspacing="0">
+    <table border = "1" cellspacing = "0" cellpadding = "10">
         <tr>
-            <td><a href="index.php">Home</a></td>
-            <td><a href="profile.php">Profil</a></td>
-            <td><a href="contact.php">Contact</a></td>
-            <td><a href="mahasiswa.php">Data Mahasiswa</a></td>
+            <th><a href="index.php">Home</a></th>
+            <th><a href="profile.php">Profile</a></th>
+            <th><a href="contact.php">Contact</a></th>
+            <th><a href="mahasiswa.php">Mahasiswa</a></th>
         </tr>
     </table>
+    <br>
     <hr/>
-    <h3>Sambutan Kaprodi</h3>
-    <img src="aset/Foto/CristianoRonaldo.jpg" width="300px" height="200px" 
-    alt="Foto Kaprodi Informatika 2026">
+    <hr>
+    <h3>Sambutan Ketua</h3>
+    <img src="../assets/images/kaprodi.jpg" width="200px" >
     <p>
-        <b>Nama:</b> Prof. Dr. Cristiano Ronaldo, S.Kom, M.Kom<br/>
-        <b>NIDN:</b> 1234567890<br/>
-        <b>Jabatan:</b> Kaprodi Informatika 2026<br/>
-        <b>Pesan:</b> Selamat datang di Program Studi Informatika 2026! Kami berkomitmen untuk memberikan pendidikan berkualitas tinggi dan mendukung pengembangan mahasiswa kami dalam bidang teknologi informasi. Bersama-sama, kita akan menjelajahi dunia informatika yang penuh dengan inovasi dan peluang. Mari kita raih kesuksesan bersama!<br/>
-        <b>Deskripsi:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <b>
+        Nama : Andi <br>
+        Jabatan : Student of Colleague <br>
+        </b>
+        <i>Deskripsi : Lorem ipsum dolor sit amet, 
+        consectetur adipisicing elit. 
+        Enim omnis praesentium quo maxime tenetur 
+        aliquid magni numquam <u><b>iusto ipsam,</b></u> in atque 
+        delectus quae. Minima facilis nam eos, fugiat 
+        quasi voluptates? <b>H<sub>2</sub>O 2<sup>2</sup></b></i>
     </p>
-    <h2>Daftar Prestasi :</h2>
-    <ul>
-        <li>Juara Kaprodi sedunia</li>
-        <ul>
-            <li>Juara 1 Kompetisi Pemrograman Nasional 2025</li>
-            <li>Juara 1 Kompetisi Kecerdasan Buatan Internasional 2024</li>
-            <li>Juara 2 Kompetisi Keamanan Siber Nasional 2023</li>
-        </ul>
-        <li>Juara 2 Kompetisi Desain Web Internasional 2024</li>
-        <li>Juara 3 Hackathon Teknologi Terbaru 2023</li>
-    </ul>    
+
+    <a href="profile.php" >profile</a><br>
+    <a href="contact.php">contact</a><br>
+    <a href="https://youtube.com" target="_blank">Youtube</a>
+
+    <link rel="stylesheet" href="style.css">
+    
 </body>
-</php>
+</html>
